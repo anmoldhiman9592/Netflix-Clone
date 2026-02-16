@@ -79,22 +79,35 @@
   color: white;
   font-weight: bold;
 }
+
+.input-button.for.mobile {
+  background: inherit;
+}
 .input-box {
-  width: 50%;
-  padding: 10px;
-  font-size: 1rem;
-  border: none;
-  outline: none;
-  margin-top: 50px;
+   width: 60vw;
+     padding: 0;
+     margin: 0;
+     font-size: 1rem;   
+     width: auto;
+
+    height: 32px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .center-button {
-  padding: 10px;
-  font-size: 1rem;
-  border: none;
-  outline: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
+   padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    width: auto;
+    height: 32px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
 }
 .hover img {
   height: 150px;
@@ -315,4 +328,130 @@
   justify-content: start;
   align-items: center;
   padding: 20px;
+}
+/* --- MOBILE STYLES (Add to bottom of style.css) --- */
+
+/* === MOBILE ONLY STYLES === */
+@media only screen and (max-width: 600px) {
+  body{
+      margin: 0;
+      padding: 0;
+    
+  }
+  .input-box2{
+    width: 60vw;
+  }
+  .center-button2{
+    width: 30vw;
+    height: 32px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .input-button.for.mobile{
+    display: flex;
+    padding: 0;
+    margin-top: 20px;;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .input-box{
+    width: 60vw;
+     padding: 0;
+     margin: 0;
+     font-size: 1rem;   
+     width: 60vw;
+
+    height: 32px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .center-button{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    width: 30vw;
+    height: 32px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  .p2{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+  }
+  div.h2{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+     background: #000;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+  }
+  div.box{
+   width: 80vw;
+    height: 40vh;;
+    border: 5px solid blue;
+    border-radius: 30px;
+    padding: 9px;
+    margin: 0px;;
+
+  }
+  div.main3{
+    width: auto;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    overflow: scroll;
+    padding: 20px;
+    
+  }
+  .paras{
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+
+  .netflix img{
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+  }
+  div.nav-buttons{
+    padding-left: 40px;
+  }
+
+  div.nav-buttons button{
+    size: 1rem;
+    width: 60px;
+    
+  }
+
+  .ready h5{
+    font-size: 1rem;
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+  }
+
 }
