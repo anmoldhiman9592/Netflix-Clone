@@ -84,30 +84,29 @@
   background: inherit;
 }
 .input-box {
-   width: 60vw;
-     padding: 0;
-     margin: 0;
-     font-size: 1rem;   
-     width: auto;
+  width: 60vw;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  width: auto;
+  height: 32px;
+  font-size: 1rem;
 
-    height: 32px;
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .center-button {
-   padding: 0;
-    margin: 0;
-    font-size: 1rem;
-    width: auto;
-    height: 32px;
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: red;
-    color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  width: auto;
+  height: 32px;
+  font-size: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
 }
 .hover img {
   height: 150px;
@@ -117,7 +116,6 @@
   height: 300px;
   width: 200px;
   border-radius: 10px;
-    
 }
 
 .top-10 {
@@ -142,8 +140,6 @@
   align-items: center;
   display: flex;
   height: 100%;
-
-  
 }
 :hover.hover img {
   transform: scale(1.1);
@@ -161,13 +157,12 @@
   position: absolute;
   z-index: 10;
   font-size: 3rem;
-  
+
   color: black;
   margin-top: 90px;
   left: 10px;
   top: 10px;
   font-weight: bold;
-  
 }
 .h2 {
   background: #000;
@@ -248,7 +243,7 @@
   padding: 10px;
 }
 
-.ready{
+.ready {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -262,25 +257,23 @@
   padding-top: 40px;
 }
 
-.input-box2{
+.input-box2 {
   font-size: 1.5rem;
-  
 }
-.center-button2{
- background-color: red;
+.center-button2 {
+  background-color: red;
   color: white;
   font-size: 1.5rem;
 }
-.input-button{
+.input-button {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: black;
   padding: 20px;
-  
 }
-.more-questions{
-  color :white;
+.more-questions {
+  color: white;
   background-color: black;
   font-size: larger;
   display: flex;
@@ -290,7 +283,7 @@
   padding: 20px;
 }
 
-.footer-navbar{
+.footer-navbar {
   background-color: black;
   color: white;
   display: flex;
@@ -299,19 +292,19 @@
   padding: 20px;
 }
 
-.footer-navbar a{
+.footer-navbar a {
   color: white;
   text-decoration: none;
 }
 
-.center-button3{
+.center-button3 {
   display: block;
   background-color: red;
   color: white;
   font-size: 1.5rem;
   margin-left: 20px;
 }
-.bg-color{
+.bg-color {
   background-color: black;
   display: flex;
   justify-content: start;
@@ -320,7 +313,7 @@
   color: white;
 }
 
-.copyright{
+.copyright {
   color: white;
   background-color: black;
   font-size: larger;
@@ -333,15 +326,14 @@
 
 /* === MOBILE ONLY STYLES === */
 @media only screen and (max-width: 600px) {
-  body{
-      margin: 0;
-      padding: 0;
-    
+  body {
+    margin: 0;
+    padding: 0;
   }
-  .input-box2{
+  .input-box2 {
     width: 60vw;
   }
-  .center-button2{
+  .center-button2 {
     width: 30vw;
     height: 32px;
     font-size: 1rem;
@@ -350,27 +342,26 @@
     align-items: center;
   }
 
-  .input-button{
+  .input-button {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
   }
 
-  .input-button.for.mobile{
+  .input-button.for.mobile {
     display: flex;
     padding: 0;
-    margin-top: 20px;;
+    margin-top: 20px;
     justify-content: center;
     align-items: center;
-    
   }
-  .input-box{
+  .input-box {
     width: 60vw;
-     padding: 0;
-     margin: 0;
-     font-size: 1rem;   
-     width: 60vw;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    width: 60vw;
 
     height: 32px;
     font-size: 1rem;
@@ -378,7 +369,7 @@
     justify-content: center;
     align-items: center;
   }
-  .center-button{
+  .center-button {
     padding: 0;
     margin: 0;
     font-size: 1rem;
@@ -387,71 +378,67 @@
     font-size: 1rem;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
   }
-  .p2{
+  .p2 {
     font-size: 1.5rem;
     color: white;
     font-weight: bold;
   }
-  div.h2{
+  div.h2 {
     font-size: 1.5rem;
     color: white;
     font-weight: bold;
-     background: #000;
-     color: white;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     padding: 20px;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
   }
-  div.box{
-   width: 80vw;
-    height: 40vh;;
+  div.box {
+    width: 80vw;
+    height: 40vh;
     border: 5px solid blue;
     border-radius: 30px;
     padding: 9px;
-    margin: 0px;;
-
+    margin: 0px;
   }
-  div.main3{
+  div.main3 {
     width: auto;
     gap: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     overflow: scroll;
     padding: 20px;
-    
   }
-  .paras{
+  .paras {
     font-size: 1rem;
     color: white;
     font-weight: bold;
     margin-top: 40px;
   }
 
-  .netflix img{
+  .netflix img {
     width: 80px;
     height: 30px;
     margin-left: 20px;
   }
-  div.nav-buttons{
+  div.nav-buttons {
     padding-left: 40px;
   }
 
-  div.nav-buttons button{
+  div.nav-buttons button {
     size: 1rem;
     width: 60px;
-    
   }
 
-  .ready h5{
+  .ready h5 {
     font-size: 1rem;
     color: white;
     font-weight: bolder;
     padding: 20px;
   }
-
 }
